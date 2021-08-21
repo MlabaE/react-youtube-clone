@@ -1,0 +1,53 @@
+.searchPage{
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 20px 20px;
+}
+
+.searchPage_filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.searchPage_filter > h2{
+    margin-left: 10px;
+}
+
+.searchPage_filter > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.ChannelRow{
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.ChannelRow_text{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ChannelRow_avatar > p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.ChannelRow_avatar {
+    height: 140px !important;
+    width: 140px !important;
+    margin: 20px 60px;
+}
+
+
+.ChannelRow_avatar > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
